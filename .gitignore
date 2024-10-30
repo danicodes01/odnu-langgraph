@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directory
+mylang-env/
+.env
+
+# Environment variables files
+.env
+.env.example
+agent/.env
+agent/.env.example
+agent/__pycache__/
+agent/utils/__pycache__/
+agent/requirements.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Cache and other generated folders
+.cache/
+*.cache
+*.DS_Store
+
+# Specific files for the FastAPI server and other temp configurations
+fastapi_server.py
+langgraph.json
