@@ -26,5 +26,4 @@ agent/requirements.txt
 *.DS_Store
 
 # Specific files for the FastAPI server and other temp configurations
-fastapi_server.py
 langgraph.json
